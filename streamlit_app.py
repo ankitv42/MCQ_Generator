@@ -8,8 +8,8 @@ from langchain_core.prompts import PromptTemplate
 from langchain_core.output_parsers import StrOutputParser
 
 # Set up OpenAI API Key
-OPENAI_API_KEY = st.secrets["OPENAI_API_KEY"]  # Store in Streamlit secrets for security
-os.environ["OPENAI_API_KEY"] = OPENAI_API_KEY
+#OPENAI_API_KEY = st.secrets["OPENAI_API_KEY"]  # Store in Streamlit secrets for security
+os.environ["OPENAI_API_KEY"] = "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"
 
 # Initialize OpenAI Model
 openai_model = ChatOpenAI(model="gpt-4")
