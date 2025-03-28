@@ -1,1 +1,6 @@
-!pip install -qU pypdf langchain_core langchain_community langchain_groq faiss-cpu
+pypdf 
+langchain_core 
+langchain_community 
+streamlit
+langchain
+langchain-openai
